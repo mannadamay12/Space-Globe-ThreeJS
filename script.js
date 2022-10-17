@@ -122,6 +122,14 @@ function init() {
     scene.add(createStars(texture4, 7, 5));
 
 
+    // function randomPointSphere (radius) {
+    //     let theta = 2 * Math.PI * Math.random();
+    //     let phi = Math.acos(2 * Math.random() - 1);
+    //     let dx = 0 + (radius * Math.sin(phi) * Math.cos(theta));
+    //     let dy = 0 + (radius * Math.sin(phi) * Math.sin(theta));
+    //     let dz = 0 + (radius * Math.cos(phi));
+    //     return new THREE.Vector3(dx, dy, dz);
+    // }
     function randomPointSphere (radius) {
         let theta = 2 * Math.PI * Math.random();
         let phi = Math.acos(2 * Math.random() - 1);
